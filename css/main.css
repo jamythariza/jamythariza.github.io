@@ -1,0 +1,83 @@
+body{
+	font-family: 'Titillium Web', sans-serif;
+}
+header{
+	background-image: url('../img/alamo-taller-1.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-top: 75px;
+	min-height: 720px;
+}
+footer{
+	background: url('../img/smartphones.png');
+}
+#testimonial{
+	background-color: #f1f1f1;
+	padding: 50px 0 30px 0;
+	text-align: center;;
+	margin-top: 40px;
+}
+#info-one{
+	padding-top: 20px;
+}
+.logo{
+	position: relative;
+	text-align: center;
+}
+.img-logo{
+	height: 340px;
+	margin-top: 0px;
+}
+.title{
+	color: white;
+	font-weight: bold;
+	position: relative;
+	margin-top: 20px;
+}
+.bg-dark{
+	/*background-color: transparent !important;*/
+	background-color: rgba(46,45,42,0.9) !important;
+}
+#nosotros {
+	padding-top: 80px;
+}
+  #bars {
+	  margin: 2em auto;
+	  max-width: 960px;
+	  overflow: hidden;
+  }
+  
+  .bar {
+	  display:inline-block;
+	  text-align: center;
+  }
+  
+  .bar h3 {
+	  font-size: 1.4em;
+	  font-weight: normal;
+	  margin: 0;
+	  text-transform: uppercase;
+  }
+  
+  .bar-circle {
+	  display: block;
+	  margin: 0.7em auto;
+  }
+  
+  h3 {
+	  display:inline-block;
+	  margin-left:25px;
+	  cursor:pointer;
+  }
+  #names {
+	  padding-top: 60px;
+	  text-align:center;
+  }
+  .bactive {
+	  border-bottom:3px solid #D6AC4B;
+		  font-weight:800;
+  }
+  #skills{
+	  background-color: #f1f1f1;
+	  padding-bottom: 20px;
+  }

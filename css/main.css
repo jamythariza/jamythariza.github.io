@@ -8,17 +8,45 @@ header{
 	padding-top: 75px;
 	min-height: 720px;
 }
-footer{
-	background: url('../img/smartphones.png');
-}
 #testimonial{
 	background-color: #f1f1f1;
-	padding: 50px 0 30px 0;
+	padding: 50px 0 60px 0;
 	text-align: center;;
 	margin-top: 40px;
 }
 #info-one{
+	padding: 40px;
+}
+#contact{
+	background: url(../img/alamo-taller-1.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	padding: 20px 0px 0px 0px;
+	color: #FFF !important;
+}
+#contact a{
+	color: #FFF !important;
+	padding-left: 10px;;
+	
+}
+.email{
+	border: 1px solid #FFF;
+    padding: 16px 24px;
+    text-align: center;
+    margin: 20px auto;
+  }
+i.fab {
+	font-size: 2em !important;
+}
+.footer{
+	
+	background-color: #292927;
+	color: white;
+	margin-top: 40px;
 	padding-top: 20px;
+	padding-bottom: 10px;
 }
 .logo{
 	position: relative;
@@ -81,3 +109,69 @@ footer{
 	  background-color: #f1f1f1;
 	  padding-bottom: 20px;
   }
+  
+.home-design{
+	background: url(../img/alamo-taller-7.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 320px;
+}
+.bigotes{
+	background: url(../img/alamo-taller-7.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 320px;
+}
+.fabrica{
+	background: url(../img/alamo-taller-7.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 320px;
+}
+.titulo{
+	text-align: center;
+	margin-top: 16%;
+	color: white !important;
+	
+}
+.titulo h3{
+	display: block;
+	font-weight: bold;
+	font-size: 1.8 em;
+	padding-top: 4px;;
+}
+.line{
+	height: 2px;
+	background: white;
+	text-align: center;
+	width: 60px;
+	margin: 4px auto;
+}
+.line-verde{
+	height: 2px;
+	background: #4a5e42;
+	text-align: center;
+	width: 60px;
+	margin: 16px auto;
+}
+.line-blanco{
+	height: 2px;
+	background: #fff;
+	text-align: center;
+	width: 60px;
+	margin: 16px auto;
+}
+.line-verde-left{
+	height: 2px;
+	background: #4a5e42;
+	text-align: left;
+	width: 60px;
+	margin-top: 16px;
+}
+

@@ -1,5 +1,8 @@
 (function() {
-	
+	$(function () {
+		$('[data-toggle="tooltip"]').tooltip()
+	})
+
 	var Progress = function( element ) {
 		
 		this.context = element.getContext( "2d" );
@@ -143,7 +146,6 @@ window.sr = ScrollReveal();
 	sr.reveal('#testimonial', {
 		duration: 2000,
 		origin: 'left',
-		distance: '300px',
 		viewFactor: 0.2
 	});
 	sr.reveal('.info-left', {

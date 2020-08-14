@@ -175,3 +175,18 @@ i.fab {
 	margin-top: 16px;
 }
 
+ul, nav {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+  }
+  nav li{
+	  display: inline-block;
+	  padding: 12px 14px;
+  }
+  nav li img{
+	  height: 40px;
+	  margin: 0 auto;;
+	  text-align: center;
+}
+

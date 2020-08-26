@@ -136,15 +136,18 @@ i.fab {
 }
 .titulo{
 	text-align: center;
-	margin-top: 16%;
+	margin-top: 10%;
 	color: white !important;
 	
 }
+.titulo img{
+	height: 120px;;
+}
+
 .titulo h3{
 	display: block;
 	font-weight: bold;
 	font-size: 1.8 em;
-	padding-top: 4px;;
 }
 .line{
 	height: 2px;
@@ -185,13 +188,15 @@ ul, nav {
 	  padding: 12px 14px;
   }
   nav li img{
-	  height: 40px;
+	  height: 60px;
 	  margin: 0 auto;;
 	  text-align: center;
 }
 #home{
 	position: relative;
 }
+
+
 @media (max-width: 800px) {
 	.home-1 {
 	  position: relative;

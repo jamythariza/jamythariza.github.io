@@ -35,7 +35,17 @@ header{
 	border: 1px solid #FFF;
     padding: 16px 24px;
     text-align: center;
-    margin: 20px auto;
+	margin: 20px auto;
+	-webkit-transition: background-color 2s ease-out;
+  -moz-transition: background-color 2s ease-out;
+  -o-transition: background-color 2s ease-out;
+  transition: background-color 2s ease-out;
+     background-color: transparent;
+  }
+  .email:hover {
+	  background: rgba(255,255,255,0.4);
+	  border: 1px solid #444;
+
   }
 i.fab {
 	font-size: 2em !important;
@@ -63,7 +73,6 @@ i.fab {
 	margin-top: 20px;
 }
 .bg-dark{
-	/*background-color: transparent !important;*/
 	background-color: rgba(46,45,42,0.9) !important;
 }
 #nosotros {
@@ -148,6 +157,7 @@ i.fab {
 	display: block;
 	font-weight: bold;
 	font-size: 1.8 em;
+	margin: 0;
 }
 .line{
 	height: 2px;
@@ -210,6 +220,9 @@ ul, nav {
 	  }
   }
 @media (max-width: 600px) {
+	.info-right p,.info-left p,#testimonial p{
+		text-align: justify !important;
+	}
 	.home-1 {
 		position: relative;
 		bottom: 0;
@@ -226,6 +239,9 @@ ul, nav {
 		}
 		nav li{
 			display: block;
+		}
+		.footer p{
+			text-align:center !important;
 		}
   }
 
